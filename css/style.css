@@ -29,6 +29,18 @@ img {
     max-width: 50%;
     height: auto;
   }
+  #main-section{
+  background-image: linear-gradient(to bottom, rgba(0,0,0, 0) 10%, rgba(0, 0, 0, 0.3) 100%, transparent 1%), url("../img/img2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+  .balanced-class{
+    min-width: 368px;
+    min-height: 236.25px;
+    /* 560px, 315px */
+    
+  }
 .logoplace {
     width: 250px;
     height: auto;
@@ -376,6 +388,12 @@ border-bottom: #008ed6 3px solid;
     min-width:inherit;
     min-height: 300px;
 }
+.text-size-lg {
+    font-size: 1.8rem;
+}
+    #main-section{
+        background-attachment: scroll!important;
+    }
 #myVideo2 {
     max-width: 100%;
     display: none!important;
